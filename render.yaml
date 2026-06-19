@@ -10,7 +10,7 @@ services:
         fromDatabase:
           name: mysite-db
           property: connectionString
-      - key: "bdeba4939a59eac30556aefc4594856b"
+      - key: RAILS_MASTER_KEY
         sync: false
       - key: WEB_CONCURRENCY
         value: 2
